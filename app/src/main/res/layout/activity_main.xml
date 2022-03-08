@@ -25,13 +25,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="AGE"
         android:background="@color/cardview_light_background"
-        android:textColor="@color/honeyYellow"
         android:padding="10dp"
+        android:text="AGE"
+        android:textColor="#EF6C00"
         android:textSize="25sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,12 +43,58 @@
         />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:textColor="@color/darkBlue"
+        android:text="PICK A DATE"
+        android:textSize="18sp"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:backgroundTint="@color/carolinaBlue"/>
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="@color/textBlue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Selected Date"
+        android:textColor="@color/yellowCrayola"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/tvAgeInMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textColor="@color/textBlue"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Minutes passed since date"
+        android:textColor="@color/yellowCrayola"
+        android:textSize="18sp"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_marginTop="30sp"
+        android:layout_width="250sp"
+        android:layout_height="190sp"
+        android:src="@drawable/animation" />
+
 
 </LinearLayout>
